@@ -1,0 +1,47 @@
+<template name="Vocab">
+	<article class="vocab {{#if inStudyList}}in-menu{{/if}}">
+	{{#if languageSwitch}}
+		<h3>{{langB}}</h3>
+	{{else}}
+		<h3>{{langA}}</h3>
+	{{/if}}
+		
+		{{#if  editMode}}
+			{{> quickForm collection="Vocabulary" id=updateVocabId type="update" doc=this autosave=true}}
+		{{else}}
+			{{#if hideSecondLang}}
+			<button class="show-langB">Show Answer</button>
+			{{else}}
+				{{#if languageSwitch}}
+					<h4>{{langA}}</h4>
+				{{else}}
+					<h4>{{langB}}</h4>
+				{{/if}}
+				<p>
+					{{#each examples}}
+						<span class="examples">
+							{{#if languageSwitch}}
+								{{langB}}<br>
+								{{langA}}
+							{{else}}
+								{{langA}}<br>
+								{{langB}}
+							{{/if}}
+						</span>
+					{{/each}}
+				</p>
+				<button class="show-langB">Hide Answer</button><br>
+			{{/if}}
+			<button class="switch-lang">Switch Language</button><br>
+			{{#if inStudyList}}
+			<button class="btn-deny toggle-menu">Remove from Menu</button>
+			{{else}}
+			<button class="btn-primary toggle-menu">Add to Menu</button>
+			{{/if}}
+		{{/if}}
+		
+		<i class="fa fa-pencil"></i>
+		<i class="fa fa-trash"></i>
+		
+	</article>
+</template>

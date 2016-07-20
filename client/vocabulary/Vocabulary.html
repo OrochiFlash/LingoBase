@@ -1,0 +1,16 @@
+<template name="Vocabulary">
+	{{#if $.Session.get 'newVocabulary'}}
+		{{> NewVocabulary}}
+	{{else}}
+		<button class="new-vocab">New Vocab</button>
+	{{/if}}
+		<section class="vocabulary">
+		{{#if Template.subscriptionsReady}}
+			{{#each vocabulary}}
+				{{> Vocab}}
+			{{/each}}
+		{{else}}
+		<p>Loading</p>
+		{{/if}}
+		</section>
+</template>

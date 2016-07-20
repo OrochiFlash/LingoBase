@@ -1,0 +1,17 @@
+<template name="StudyList">
+	<h1>My Study List</h1>
+	<ul class="study-list">
+		{{#each studyList}}
+			{{#each examples}}
+				<li>
+				<span class="examples">
+					{{langA}}<br>
+					{{langB}}
+				</span>
+				</li>
+			{{/each}}
+		{{else}}
+			<li>Please add <a href="/vocabulary-book">Vocabulary</a> to your Study List</li>
+		{{/each}}
+	</ul>
+</template>
