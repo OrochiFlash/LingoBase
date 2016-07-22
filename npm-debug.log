@@ -1,0 +1,286 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install', '-g', 'modulus' ]
+2 info using npm@1.4.21
+3 info using node@v0.10.25
+4 verbose cache add [ 'modulus', null ]
+5 verbose cache add name=undefined spec="modulus" args=["modulus",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'modulus',
+6 verbose parsed url   path: 'modulus',
+6 verbose parsed url   href: 'modulus' }
+7 silly lockFile 7b42c9a5-modulus modulus
+8 verbose lock modulus /home/chibwe/.npm/7b42c9a5-modulus.lock
+9 silly lockFile 7b42c9a5-modulus modulus
+10 silly lockFile 7b42c9a5-modulus modulus
+11 verbose addNamed [ 'modulus', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile f279123d-modulus modulus@
+14 verbose lock modulus@ /home/chibwe/.npm/f279123d-modulus.lock
+15 silly addNameRange { name: 'modulus', range: '*', hasData: false }
+16 verbose request where is /modulus
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id ebf36960325bfc0a
+19 verbose url raw /modulus
+20 verbose url resolving [ 'https://registry.npmjs.org/', './modulus' ]
+21 verbose url resolved https://registry.npmjs.org/modulus
+22 verbose request where is https://registry.npmjs.org/modulus
+23 info trying registry request attempt 1 at 23:55:15
+24 http GET https://registry.npmjs.org/modulus
+25 http 200 https://registry.npmjs.org/modulus
+26 silly registry.get cb [ 200,
+26 silly registry.get   { server: 'CouchDB/1.6.1 (Erlang OTP/R16B03)',
+26 silly registry.get     etag: '"4JRPJ6L3N131LL96D8RTPKZML"',
+26 silly registry.get     'content-type': 'application/json',
+26 silly registry.get     'content-encoding': 'gzip',
+26 silly registry.get     'cache-control': 'max-age=300',
+26 silly registry.get     'content-length': '18758',
+26 silly registry.get     'accept-ranges': 'bytes',
+26 silly registry.get     date: 'Fri, 22 Jul 2016 06:55:15 GMT',
+26 silly registry.get     via: '1.1 varnish',
+26 silly registry.get     age: '0',
+26 silly registry.get     connection: 'keep-alive',
+26 silly registry.get     'x-served-by': 'cache-sea1921-SEA',
+26 silly registry.get     'x-cache': 'MISS',
+26 silly registry.get     'x-cache-hits': '0',
+26 silly registry.get     'x-timer': 'S1469170515.315694,VS0,VE203',
+26 silly registry.get     vary: 'Accept-Encoding' } ]
+27 silly addNameRange number 2 { name: 'modulus', range: '*', hasData: true }
+28 silly addNameRange versions [ 'modulus',
+28 silly addNameRange   [ '0.0.1',
+28 silly addNameRange     '0.0.2',
+28 silly addNameRange     '0.0.3',
+28 silly addNameRange     '0.0.4',
+28 silly addNameRange     '0.0.5',
+28 silly addNameRange     '0.1.0',
+28 silly addNameRange     '0.1.1',
+28 silly addNameRange     '0.1.2',
+28 silly addNameRange     '0.1.3',
+28 silly addNameRange     '0.1.4',
+28 silly addNameRange     '0.1.5',
+28 silly addNameRange     '0.1.6',
+28 silly addNameRange     '0.1.7',
+28 silly addNameRange     '0.1.8',
+28 silly addNameRange     '0.1.9',
+28 silly addNameRange     '0.1.10',
+28 silly addNameRange     '0.1.11',
+28 silly addNameRange     '0.1.12',
+28 silly addNameRange     '0.1.13',
+28 silly addNameRange     '0.1.14',
+28 silly addNameRange     '0.1.14-2',
+28 silly addNameRange     '0.1.15',
+28 silly addNameRange     '0.1.16',
+28 silly addNameRange     '0.1.17',
+28 silly addNameRange     '0.1.18',
+28 silly addNameRange     '0.2.0',
+28 silly addNameRange     '0.2.1',
+28 silly addNameRange     '0.2.2',
+28 silly addNameRange     '0.2.2-1',
+28 silly addNameRange     '0.2.2-2',
+28 silly addNameRange     '0.2.3',
+28 silly addNameRange     '0.3.0',
+28 silly addNameRange     '0.3.1',
+28 silly addNameRange     '0.4.0',
+28 silly addNameRange     '0.5.0',
+28 silly addNameRange     '0.5.1',
+28 silly addNameRange     '0.6.2',
+28 silly addNameRange     '0.6.3',
+28 silly addNameRange     '1.0.0',
+28 silly addNameRange     '1.0.1',
+28 silly addNameRange     '1.0.2',
+28 silly addNameRange     '1.0.3',
+28 silly addNameRange     '1.1.0',
+28 silly addNameRange     '1.1.1',
+28 silly addNameRange     '1.2.0',
+28 silly addNameRange     '1.2.1',
+28 silly addNameRange     '1.2.2',
+28 silly addNameRange     '2.0.0',
+28 silly addNameRange     '2.0.1',
+28 silly addNameRange     '2.0.2',
+28 silly addNameRange     '2.1.0',
+28 silly addNameRange     '3.0.0',
+28 silly addNameRange     '3.0.1',
+28 silly addNameRange     '3.0.2',
+28 silly addNameRange     '3.0.3',
+28 silly addNameRange     '3.0.4',
+28 silly addNameRange     '3.0.5',
+28 silly addNameRange     '3.1.0',
+28 silly addNameRange     '3.2.0',
+28 silly addNameRange     '3.2.1',
+28 silly addNameRange     '3.3.0',
+28 silly addNameRange     '3.4.0',
+28 silly addNameRange     '3.4.1',
+28 silly addNameRange     '3.4.2',
+28 silly addNameRange     '3.5.0',
+28 silly addNameRange     '3.5.1',
+28 silly addNameRange     '3.6.0',
+28 silly addNameRange     '3.6.1',
+28 silly addNameRange     '3.6.2',
+28 silly addNameRange     '3.6.3',
+28 silly addNameRange     '3.7.0',
+28 silly addNameRange     '3.7.1',
+28 silly addNameRange     '3.7.2',
+28 silly addNameRange     '3.7.3',
+28 silly addNameRange     '3.8.0',
+28 silly addNameRange     '3.9.0',
+28 silly addNameRange     '3.10.0',
+28 silly addNameRange     '3.10.1',
+28 silly addNameRange     '3.10.2',
+28 silly addNameRange     '3.10.3',
+28 silly addNameRange     '3.11.0',
+28 silly addNameRange     '3.11.1',
+28 silly addNameRange     '3.13.0',
+28 silly addNameRange     '3.13.1',
+28 silly addNameRange     '3.13.2',
+28 silly addNameRange     '3.13.3',
+28 silly addNameRange     '3.13.4',
+28 silly addNameRange     '3.14.0',
+28 silly addNameRange     '3.14.1',
+28 silly addNameRange     '3.15.0',
+28 silly addNameRange     '3.15.1',
+28 silly addNameRange     '4.0.0',
+28 silly addNameRange     '4.0.1',
+28 silly addNameRange     '4.0.2',
+28 silly addNameRange     '5.0.0',
+28 silly addNameRange     '5.0.1-beta.1',
+28 silly addNameRange     '5.0.1-beta.2',
+28 silly addNameRange     '5.0.1-beta.3',
+28 silly addNameRange     '5.0.1-beta.4',
+28 silly addNameRange     '5.0.1',
+28 silly addNameRange     '6.0.0',
+28 silly addNameRange     '6.1.1',
+28 silly addNameRange     '6.2.0' ] ]
+29 verbose addNamed [ 'modulus', '6.1.1' ]
+30 verbose addNamed [ '6.1.1', '6.1.1' ]
+31 silly lockFile eaa54cc1-modulus-6-1-1 modulus@6.1.1
+32 verbose lock modulus@6.1.1 /home/chibwe/.npm/eaa54cc1-modulus-6-1-1.lock
+33 silly lockFile 6f7fd793-js-org-modulus-modulus-6-1-1-tgz https://registry.npmjs.org/modulus/-/modulus-6.1.1.tgz
+34 verbose lock https://registry.npmjs.org/modulus/-/modulus-6.1.1.tgz /home/chibwe/.npm/6f7fd793-js-org-modulus-modulus-6-1-1-tgz.lock
+35 verbose addRemoteTarball [ 'https://registry.npmjs.org/modulus/-/modulus-6.1.1.tgz',
+35 verbose addRemoteTarball   '0937419fcd3fbf8146323ab557c996a8539a9e94' ]
+36 info retry fetch attempt 1 at 23:55:15
+37 verbose fetch to= /tmp/npm-10498--x+jMrkX/registry.npmjs.org/modulus/-/modulus-6.1.1.tgz
+38 http GET https://registry.npmjs.org/modulus/-/modulus-6.1.1.tgz
+39 http 200 https://registry.npmjs.org/modulus/-/modulus-6.1.1.tgz
+40 silly lockFile 6f7fd793-js-org-modulus-modulus-6-1-1-tgz https://registry.npmjs.org/modulus/-/modulus-6.1.1.tgz
+41 silly lockFile 6f7fd793-js-org-modulus-modulus-6-1-1-tgz https://registry.npmjs.org/modulus/-/modulus-6.1.1.tgz
+42 silly lockFile eaa54cc1-modulus-6-1-1 modulus@6.1.1
+43 silly lockFile eaa54cc1-modulus-6-1-1 modulus@6.1.1
+44 silly lockFile f279123d-modulus modulus@
+45 silly lockFile f279123d-modulus modulus@
+46 silly resolved [ { name: 'modulus',
+46 silly resolved     description: 'The command line interface for deploying applications to the Modulus hosting platform.',
+46 silly resolved     keywords:
+46 silly resolved      [ 'cli',
+46 silly resolved        'modulus',
+46 silly resolved        'hosting',
+46 silly resolved        'cloud hosting',
+46 silly resolved        'paas',
+46 silly resolved        'platform-as-a-service',
+46 silly resolved        'deployment',
+46 silly resolved        'deploy',
+46 silly resolved        'command line',
+46 silly resolved        'modulusio' ],
+46 silly resolved     version: '6.1.1',
+46 silly resolved     author: { name: 'Modulus', email: 'feedback@modulus.io' },
+46 silly resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object] ],
+46 silly resolved     repository:
+46 silly resolved      { type: 'git',
+46 silly resolved        url: 'git+https://github.com/onmodulus/modulus-cli.git' },
+46 silly resolved     licenses: [ [Object] ],
+46 silly resolved     dependencies:
+46 silly resolved      { async: '0.1.x',
+46 silly resolved        colors: '0.6.x',
+46 silly resolved        'commander-plus': '0.0.x',
+46 silly resolved        'find-file-sync': '0.0.2',
+46 silly resolved        'fs-tools': '~0.2.10',
+46 silly resolved        'fstream-ignore': '0.0.x',
+46 silly resolved        'node-uuid': '1.3.3',
+46 silly resolved        progress: '0.1.x',
+46 silly resolved        prompt: '0.2.x',
+46 silly resolved        request: '2.27.x',
+46 silly resolved        semver: '^5.1.0',
+46 silly resolved        split: '0.3.0',
+46 silly resolved        'text-table': '0.2.0',
+46 silly resolved        through: '2.3.4',
+46 silly resolved        underscore: '1.4.x',
+46 silly resolved        'update-notifier': '~0.1.7',
+46 silly resolved        'zip-stream': '0.5.1' },
+46 silly resolved     devDependencies:
+46 silly resolved      { code: '~1.5.0',
+46 silly resolved        express: '3.0.x',
+46 silly resolved        lab: '~6.2.0',
+46 silly resolved        mocha: '1.5.x' },
+46 silly resolved     main: './lib/modulus',
+46 silly resolved     bin: { modulus: './bin/modulus' },
+46 silly resolved     preferGlobal: true,
+46 silly resolved     engines: { node: '>= 0.8.0' },
+46 silly resolved     scripts: { test: 'lab' },
+46 silly resolved     gitHead: 'b5d3f04b2702509915e4375a2656917f44e28cc6',
+46 silly resolved     bugs: { url: 'https://github.com/onmodulus/modulus-cli/issues' },
+46 silly resolved     homepage: 'https://github.com/onmodulus/modulus-cli#readme',
+46 silly resolved     _id: 'modulus@6.1.1',
+46 silly resolved     _shasum: '0937419fcd3fbf8146323ab557c996a8539a9e94',
+46 silly resolved     _from: 'modulus@',
+46 silly resolved     _npmVersion: '3.8.8',
+46 silly resolved     _nodeVersion: '4.4.3',
+46 silly resolved     _npmUser: { name: 'harlanj', email: 'jeremiah.harlan@gmail.com' },
+46 silly resolved     dist:
+46 silly resolved      { shasum: '0937419fcd3fbf8146323ab557c996a8539a9e94',
+46 silly resolved        tarball: 'https://registry.npmjs.org/modulus/-/modulus-6.1.1.tgz' },
+46 silly resolved     _npmOperationalInternal:
+46 silly resolved      { host: 'packages-16-east.internal.npmjs.com',
+46 silly resolved        tmp: 'tmp/modulus-6.1.1.tgz_1467818286220_0.020417041378095746' },
+46 silly resolved     directories: {},
+46 silly resolved     _resolved: 'https://registry.npmjs.org/modulus/-/modulus-6.1.1.tgz' } ]
+47 info install modulus@6.1.1 into /usr/local/lib
+48 info installOne modulus@6.1.1
+49 verbose lib/node_modules/modulus unbuild
+50 verbose tar unpack /home/chibwe/.npm/modulus/6.1.1/package.tgz
+51 silly lockFile c1af4ac7-r-local-lib-node-modules-modulus tar:///usr/local/lib/node_modules/modulus
+52 verbose lock tar:///usr/local/lib/node_modules/modulus /home/chibwe/.npm/c1af4ac7-r-local-lib-node-modules-modulus.lock
+53 silly lockFile 30c795ac-we-npm-modulus-6-1-1-package-tgz tar:///home/chibwe/.npm/modulus/6.1.1/package.tgz
+54 verbose lock tar:///home/chibwe/.npm/modulus/6.1.1/package.tgz /home/chibwe/.npm/30c795ac-we-npm-modulus-6-1-1-package-tgz.lock
+55 silly gunzTarPerm modes [ '775', '664' ]
+56 error tar.unpack untar error /home/chibwe/.npm/modulus/6.1.1/package.tgz
+57 silly lockFile c1af4ac7-r-local-lib-node-modules-modulus tar:///usr/local/lib/node_modules/modulus
+58 silly lockFile c1af4ac7-r-local-lib-node-modules-modulus tar:///usr/local/lib/node_modules/modulus
+59 silly lockFile 30c795ac-we-npm-modulus-6-1-1-package-tgz tar:///home/chibwe/.npm/modulus/6.1.1/package.tgz
+60 silly lockFile 30c795ac-we-npm-modulus-6-1-1-package-tgz tar:///home/chibwe/.npm/modulus/6.1.1/package.tgz
+61 verbose lib/node_modules/modulus unbuild
+62 error Error: EACCES, mkdir '/usr/local/lib/node_modules'
+62 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules']
+62 error   errno: 3,
+62 error   code: 'EACCES',
+62 error   path: '/usr/local/lib/node_modules',
+62 error   fstream_type: 'Directory',
+62 error   fstream_path: '/usr/local/lib/node_modules/modulus',
+62 error   fstream_class: 'DirWriter',
+62 error   fstream_stack:
+62 error    [ '/usr/lib/nodejs/fstream/lib/writer.js:171:23',
+62 error      '/usr/lib/nodejs/mkdirp/index.js:46:53',
+62 error      'Object.oncomplete (fs.js:107:15)' ] }
+63 error Please try running this command again as root/Administrator.
+64 error System Linux 4.2.0-36-generic
+65 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "-g" "modulus"
+66 error cwd /home/chibwe/lrnrPrj
+67 error node -v v0.10.25
+68 error npm -v 1.4.21
+69 error path /usr/local/lib/node_modules
+70 error fstream_path /usr/local/lib/node_modules/modulus
+71 error fstream_type Directory
+72 error fstream_class DirWriter
+73 error code EACCES
+74 error errno 3
+75 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules'
+76 error fstream_stack /usr/lib/nodejs/fstream/lib/writer.js:171:23
+76 error fstream_stack /usr/lib/nodejs/mkdirp/index.js:46:53
+76 error fstream_stack Object.oncomplete (fs.js:107:15)
+77 verbose exit [ 3, true ]
