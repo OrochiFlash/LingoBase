@@ -2,7 +2,7 @@ Template.Vocab.onCreated(function() {
 	this.editMode = new ReactiveVar(false);
 	this.hideSecondLang = new ReactiveVar(true);
 	this.languageSwitch = new ReactiveVar(false);
-})
+});
 
 Template.Vocab.helpers({
 	updateVocabId: function () {
