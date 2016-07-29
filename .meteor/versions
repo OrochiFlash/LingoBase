@@ -1,5 +1,9 @@
 accounts-base@1.2.8
+accounts-facebook@1.0.10
+accounts-google@1.0.10
+accounts-oauth@1.1.13
 accounts-password@1.1.12
+accounts-twitter@1.0.10
 accounts-ui@1.1.9
 accounts-ui-unstyled@1.1.12
 aldeed:autoform@5.8.1
@@ -37,9 +41,11 @@ ejson@1.0.12
 email@1.0.15
 erasaur:meteor-lodash@4.0.0
 es5-shim@4.5.13
+facebook@1.2.8
 fastclick@1.0.12
 fortawesome:fontawesome@4.5.0
 geojson-utils@1.0.9
+google@1.1.13
 gwendall:auth-client-callbacks@0.1.0
 hot-code-push@1.0.4
 html-tools@1.0.10
@@ -88,6 +94,9 @@ msavin:jetsetter@2.0.0
 msavin:mongol@2.0.1
 npm-bcrypt@0.8.6_2
 npm-mongo@1.4.45
+oauth@1.1.11
+oauth1@1.1.10
+oauth2@1.1.10
 observe-sequence@1.0.12
 ordered-dict@1.0.8
 promise@0.7.3
@@ -113,6 +122,7 @@ stolinski:stylus-multi@1.4.3
 templating@1.1.13
 templating-tools@1.0.4
 tracker@1.0.14
+twitter@1.1.11
 ui@1.0.11
 underscore@1.0.9
 url@1.0.10
