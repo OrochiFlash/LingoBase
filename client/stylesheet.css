@@ -1,0 +1,87 @@
+/*html {
+	box-sizing: border-box;
+}
+
+header {
+	background-color: #00E7E7;
+	color: #FFFFFF;
+	position: left fixed;
+	float: left;
+	z-index: 2;
+	width: 100%;
+	height: 5%;
+}
+
+header h1 {
+	float: left;
+}
+
+header .login-buttons-dropdown-align- {
+	float: right;
+}
+
+.side-nav{
+	text-decoration: none;
+	background-color: #FFE800;
+	color: #FFFFFF;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	z-index: 2;
+}
+
+.side-nav ul {
+	width: 100%;
+	display: flex;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	justify-content: space-between;
+}
+
+.side-nav a {
+	display: block;
+	text-align: center;
+	padding: 20px 20px;
+}
+
+.side-nav i {
+	display: block;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	font-size: 2em;
+	float: left;
+}
+
+.side-nav li {
+	font-size: 1.3em;
+	float: left;
+}
+
+.main-layout {
+	padding-left: 10%;
+	position: relative;
+}
+
+.vocab {
+	padding: 0 20px 20px;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.vocab h3 {
+	font-size: 3em;
+	margin-bottom: 10px;
+	margin-top: 0;
+	position: relative;
+}
+
+.study-list {
+
+}
+
+.footerPanel {
+	clear: both;
+}*/

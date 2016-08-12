@@ -1,4 +1,11 @@
 <template name="Action">
 	<h1>Join and create your own LingoBase</h1>
-	<button class="btn btn-primary">Join!</button>
+	{{> register}}
+</template>
+<template name="register">
+	<form>
+		<input type="text" name="email">
+		<input type="text" name="password">
+		<input type="submit" name="Register">
+	</form>
 </template>
